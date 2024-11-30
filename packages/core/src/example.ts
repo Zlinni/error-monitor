@@ -1,4 +1,4 @@
-import ErrorHandler from './index';
+import { ErrorHandler } from './index';
 
 const errorHandler = new ErrorHandler({
   onError: (error, errorInfo) => {
